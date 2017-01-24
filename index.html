@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Чернівціобленерго</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="clearfix"></div>
+		<div class="head-container">
+			<div class="logo">
+				<img src="img/logo.jpg">
+			</div>
+			<div class="company-name">
+				<h1>Чернівціобленерго</h1>
+				<h4>Ми робимо майбутнє світлим!</h4>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 history">
+					<h5>Історія показників</h5>
+					<table>
+						<tr>
+							<td>Місяць</td>
+							<td>Показник</td>
+						</tr>
+						<tr>
+							<td>Жовтень, 15'</td>
+							<td>3010</td>
+						</tr>
+						<tr>
+							<td>Листопад, 15'</td>
+							<td>3110</td>
+						</tr>
+						<tr>
+							<td>Грудень, 15'</td>
+							<td>3210</td>
+						</tr>
+						<tr>
+							<td>Січень, 15'</td>
+							<td>3310</td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-md-6 payment">
+					<h5>Розрахунок оплати</h5>
+					<p>Вартість отриманих послуг за Січень складає:</p>
+					<p>3310 - 3210 = 100кВт</p>
+					<p>Вартість 1кВт = 0.85грн</p>
+					<p>100кВт * 0.85грн/кВт = 85.00грн</p>
+					<p>До сплати: <span>85.00грн</span></p>
+				</div>
+			</div>
+		</div>
+		<div class="indication">
+			<h5>Внесення показника</h5>
+			<form>
+				<input type="number" min="0" required placeholder="Показник">
+				<input type="submit" value="Внести">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright © 2017. All Rights Reserved | Чернівціобленерго</p>
+	</footer>
+</body>
+</html>

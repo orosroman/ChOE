@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+html, body, header {
+	margin: 0;
+	padding: 0;
+}
+
+.logo img {
+	width: 200px;
+	height: auto;
+}
+
+.head-container {
+	background-color: #ff6600;
+}
+
+.head-container::after {
+	content: "";
+	display: block;
+	clear: both;
+} 
+
+.logo {
+	width: 200px;
+	margin: 30px 30px 30px 50px;
+	float: left;
+}
+
+.company-name {
+	text-align: center;
+	padding: 30px;
+}
+
+.company-name h1 {
+	font-size: 4rem;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.company-name h4 {
+	margin-top: 15px;
+	font-size: 2rem;
+}
+
+main {
+	margin: 50px;
+}
+
+h5 {
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.history table {
+	width: 100%;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+table tr {
+	border-bottom: 2px solid white;
+}
+
+table tr:nth-child(2n) {
+	background-color: #d9d9d9;
+}
+
+table tr:nth-child(2n+1) {
+	background-color: #f2f2f2;
+}
+
+table tr:first-child {
+	font-weight: bold;
+	background-color: #ff6600;
+}
+/*
+[class*="col-"] {
+	border: 1px solid black;
+}
+*/
+.payment {
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.payment span {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.container-fluid {
+	margin-bottom: 30px;
+}
+
+.indication {
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.indication input:first-child {
+	margin-right: 15px;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.4rem;
+}
